@@ -10,7 +10,7 @@ Welcome to the project repository! This guide provides an overview of the files 
 
 ## Getting Started
 
-If you're new to the project, start by checking the [README-sample.md](README-sample.md) file. It provides a sample README and guidelines on how to structure your project documentation.
+If you're new to the project, start by checking the [README-sample.md](README-sample.md) file. It provides a sample README and guidelines on how to structure your project README.md file.
 
 ## Database Information
 
