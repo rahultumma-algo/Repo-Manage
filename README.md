@@ -6,7 +6,7 @@ Welcome to the project repository! This guide provides an overview of the files 
 
 1. [README-sample.md](README-sample.md): Sample README.md file.
 2. [Database.md](Database.md): Information about the database and sample DATABASE.md file.
-3. [backend.md](backend.md): Details about the backend of the project and sample BACKEND.md file.
+3. [backend.md](Backend.md): Details about the backend of the project and sample BACKEND.md file.
 
 ## Getting Started
 
