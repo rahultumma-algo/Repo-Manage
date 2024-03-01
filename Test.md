@@ -1,13 +1,10 @@
-Certainly! Creating a `DATABASE.md` file to document your database structure is a good practice. Below is an example template for documenting MongoDB collections and MySQL tables:
-
-```markdown
 # Database Documentation
 
 ## MongoDB
 
-### Collection 1: users
+### Collection: users
 
-- **Description**: Stores information about users.
+- **Description**: Stores user information.
 - **Sample Record**:
   ```json
   {
@@ -19,9 +16,9 @@ Certainly! Creating a `DATABASE.md` file to document your database structure is 
   }
   ```
 
-### Collection 2: posts
+### Collection: posts
 
-- **Description**: Contains posts created by users.
+- **Description**: Contains user-created posts.
 - **Sample Record**:
   ```json
   {
@@ -35,29 +32,21 @@ Certainly! Creating a `DATABASE.md` file to document your database structure is 
 
 ## MySQL
 
-### Table 1: users
+### Table: posts
 
-- **Description**: Stores information about users.
-- **Columns**:
-  - `user_id` (PK, INT): Unique user identifier.
-  - `username` (VARCHAR): User's username.
-  - `email` (VARCHAR): User's email address.
-  - `created_at` (DATETIME): Timestamp of user registration.
-  - `is_active` (BOOLEAN): Flag indicating if the user account is active.
+- **Description**: Contains user-created posts.
 
-### Table 2: posts
-
-- **Description**: Contains posts created by users.
-- **Columns**:
-  - `post_id` (PK, INT): Unique post identifier.
-  - `user_id` (FK, INT): Foreign key referencing the `users` table.
-  - `content` (TEXT): The content of the post.
-  - `created_at` (DATETIME): Timestamp of post creation.
-  - `likes` (INT): Number of likes received.
+| Column      | Type           | PK  | FK           | NN  | Unique | Sample Values |
+|-------------|----------------|-----|--------------|-----|--------|---------------|
+| post_id     | Integer        | Yes |              | Yes | Yes    | 1, 2          |
+| user_id     | Integer        |     | References users | Yes | Yes | 1, 2          |
+| content     | TEXT           |     |              | No  | No     | 'This is a sample post.', 'Another post example.' |
+| created_at  | DATETIME       |     |              | No  | No     | '2020-09-15 10:45:00', '2020-09-16 09:15:00'     |
+| likes       | Integer        |     |              | No  | No     | 10, 15         |
+| contains_1  | [Type]         |     | [Specify]    | Yes | Yes    | [Sample Value]|
+| contains_2  | [Type]         |     |              |     |        | [Sample Value]|
 
 ### Relationships
 
 - **users.user_id -> posts.user_id**: One-to-Many relationship between users and their posts.
-```
 
-Feel free to adapt this template to fit your specific database structure and needs. Update the collection names, table names, descriptions, and sample records accordingly.
