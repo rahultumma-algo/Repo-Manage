@@ -26,6 +26,6 @@ If you're interested in contributing to the project, please follow the guideline
 
 ## Need Help?
 
-If you have any questions or need assistance, don't hesitate to reach out to the project contributors. We're here to help you navigate the repository and contribute effectively.
+If you have any questions or need assistance, don't hesitate to reach out to the project TL. We're here to help.
 
 Happy coding!
