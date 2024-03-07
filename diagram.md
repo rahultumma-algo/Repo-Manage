@@ -1,21 +1,17 @@
 # Activity Flow Diagram
 
-This README provides information about the symbols used in activity flow diagrams along with an example diagram.
+This file provides information about the symbols used in activity flow diagrams along with an example diagram.
 
 ## Process Flow Diagram Symbols
 
-| Element               | Symbol | Meaning                                                        |
-|-----------------------|--------|----------------------------------------------------------------|
-| Process Step          |   □    | Functionality or process step.                                 |
-| Start/End Point       |   ○    | Start or end of a process or flow.                             |
-| Navigation/Flow       |   →    | Flow direction between steps.                                  |
-| Conditional Diamond   |   ◆    | Decision point in the process flow.                            |
-| Fork                  |   ┬    | Splitting point for multiple paths.                            |
-| Merge                 |   ┴    | Convergence point for multiple paths.                          |
+![Activity Flow Diagram Elements](summery.png)
+
+This diagram illustrates the symbols commonly used in activity flow diagrams.
 
 ## Example Activity Flow Diagram
 
 ![Activity Flow Diagram Example](main.png)
 
-This diagram demonstrates the use of the symbols described above in an activity flow diagram.
+This example demonstrates the application of the symbols described above in an activity flow diagram.
 
+To continue your diagram design, use this [file link](<link to your file>).
