@@ -14,4 +14,4 @@ This diagram illustrates the symbols commonly used in activity flow diagrams.
 
 This example demonstrates the application of the symbols described above in an activity flow diagram.
 
-To continue your diagram design, use this [file link](<link to your file>).
+To continue your diagram design, use this [file link](<sample.drawio>).
