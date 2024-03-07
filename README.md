@@ -29,6 +29,12 @@ To understand activity flow diagrams and view an example diagram, refer to [diag
 
 If you're interested in contributing to the project, please follow the guidelines outlined in the main README file. It includes information on how to set up the development environment, submit pull requests, and more.
 
+## Company Resources
+
+- **Company Google Drive:** Remember to store all necessary documents, minutes of meetings, and one backup file on the company Google Drive for easy access and collaboration.
+  
+- **Company Azure Bucket:** Utilize the company Azure bucket to securely store all keys, information variables, and sensitive data used within the codebase.
+
 ## Need Help?
 
 If you have any questions or need assistance, don't hesitate to reach out to the project TL. We're here to help.
