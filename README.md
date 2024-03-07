@@ -7,6 +7,7 @@ Welcome to the project repository! This guide provides an overview of the files 
 1. [README-sample.md](README-sample.md): Sample README.md file.
 2. [Database.md](Database.md): Information about the database and sample DATABASE.md file.
 3. [Backend.md](Backend.md): Details about the backend of the project and sample BACKEND.md file.
+4. [diagram.md](diagram.md): Information about activity flow diagrams and example diagram.
 
 ## Getting Started
 
@@ -19,6 +20,10 @@ For details about the project's database, refer to [Database.md](Database.md). T
 ## Backend Details
 
 To learn about the project's backend, including technologies used and API documentation, check [backend.md](backend.md). This file provides insights into the backend architecture and how it interacts with other components.
+
+## Activity Flow Diagrams
+
+To understand activity flow diagrams and view an example diagram, refer to [diagram.md](diagram.md). This file explains the symbols used in activity flow diagrams and provides an illustrative example.
 
 ## Contributing
 
