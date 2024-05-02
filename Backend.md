@@ -2,7 +2,7 @@
 
 This document provides a concise overview of key files and functions used in the backend of the project.
 
-## Key Files 📁
+## Key Files  📁
 
 ### 1. `server.js`
 
